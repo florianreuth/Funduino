@@ -27,3 +27,6 @@ tutorial and an extended version with more features.
 - [Funduino's education tutorial](https://funduino.de/vorwort)
 - [Arduino UNO documentation](https://www.arduino.cc/en/Guide/ArduinoUno)
 - [Codebender](https://codebender.cc/) - Online Arduino IDE
+
+## License
+This project is licensed under the CC0 license. Feel free to learn from the code and use it in your own projects. 
