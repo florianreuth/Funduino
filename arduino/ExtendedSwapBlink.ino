@@ -14,9 +14,9 @@ void loop() {
 }
 
 void blinkPins(int firstPin, int secondPin) {
-  digitalWrite(firstPin, HIGH);
-  digitalWrite(secondPin, HIGH);
-  delay(1000);
-  digitalWrite(firstPin, LOW);
-  digitalWrite(secondPin, LOW);
+    digitalWrite(firstPin, HIGH);
+    digitalWrite(secondPin, HIGH);
+    delay(1000);
+    digitalWrite(firstPin, LOW);
+    digitalWrite(secondPin, LOW);
 }
