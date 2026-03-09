@@ -9,7 +9,7 @@ const int LED2_GREEN = 10;
 const int LED2_BLUE = 11;
 
 const int BRIGHTNESS = 150;
-const int DELAY_TIME = 1000;
+const int PAUSE_MS = 1000;
 
 void setup() {
     pinMode(LED1_RED, OUTPUT);
@@ -31,7 +31,7 @@ void loop() {
     setColor(LED1_RED, LED1_GREEN, LED1_BLUE, BRIGHTNESS, BRIGHTNESS, 0);
 
     setColor(LED2_RED, LED2_GREEN, LED2_BLUE, 0, 0, BRIGHTNESS);
-    delay(DELAY_TIME);
+    delay(PAUSE_MS);
 
     setColor(LED1_RED, LED1_GREEN, LED1_BLUE, 0, 0, 0);
     setColor(LED2_RED, LED2_GREEN, LED2_BLUE, 0, 0, 0);
@@ -39,7 +39,7 @@ void loop() {
     setColor(LED1_RED, LED1_GREEN, LED1_BLUE, 0, BRIGHTNESS, BRIGHTNESS);
 
     setColor(LED2_RED, LED2_GREEN, LED2_BLUE, BRIGHTNESS, 0, 0);
-    delay(DELAY_TIME);
+    delay(PAUSE_MS);
 
     setColor(LED1_RED, LED1_GREEN, LED1_BLUE, 0, 0, 0);
     setColor(LED2_RED, LED2_GREEN, LED2_BLUE, 0, 0, 0);
@@ -47,7 +47,7 @@ void loop() {
     setColor(LED1_RED, LED1_GREEN, LED1_BLUE, BRIGHTNESS, 0, BRIGHTNESS);
 
     setColor(LED2_RED, LED2_GREEN, LED2_BLUE, 0, BRIGHTNESS, 0);
-    delay(DELAY_TIME);
+    delay(PAUSE_MS);
 
     setColor(LED1_RED, LED1_GREEN, LED1_BLUE, 0, 0, 0);
     setColor(LED2_RED, LED2_GREEN, LED2_BLUE, 0, 0, 0);

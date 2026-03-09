@@ -1,17 +1,22 @@
 // https://github.com/florianreuth/Funduino
 
+const int LED1 = 5;
+const int LED2 = 7;
+
+const int PAUSE_MS = 1000;
+
 void setup() {
-    pinMode(5, OUTPUT);
-    pinMode(7, OUTPUT);
+    pinMode(LED1, OUTPUT);
+    pinMode(LED2, OUTPUT);
 }
 
 void loop() {
-    blinkPin(5);
-    blinkPin(7);
+    blinkPin(LED1);
+    blinkPin(LED2);
 }
 
 void blinkPin(int pin) {
     digitalWrite(pin, HIGH);
-    delay(1000);
+    delay(PAUSE_MS);
     digitalWrite(pin, LOW);
 }

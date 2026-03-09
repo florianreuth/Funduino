@@ -5,8 +5,11 @@ const int LED2 = 3;
 const int LED3 = 2;
 const int LED4 = 6;
 
+const float SPEED = 0.05;
+const float PAUSE_MS = 20;
+const float MAX_BRIGHTNESS = 255;
+
 float t = 0.0;
-float speed = 0.05;
 
 void setup() {
     pinMode(LED1, OUTPUT);
@@ -26,10 +29,10 @@ void loop() {
     analogWrite(LED3, b3);
     analogWrite(LED4, b4);
 
-    t += speed;
-    delay(20);
+    t += SPEED;
+    delay(PAUSE_MS);
 }
 
 int wave(float x) {
-    return (sin(x) + 1.0) * (255 / 2);
+    return (sin(x) + 1.0) * (MAX_BRIGHTNESS / 2);
 }

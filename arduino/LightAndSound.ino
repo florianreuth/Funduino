@@ -1,7 +1,9 @@
 // https://github.com/florianreuth/Funduino
 
-int LIGHT = 5;
-int SOUND = 7;
+const int LIGHT = 5;
+const int SOUND = 7;
+
+const int PAUSE_MS = 1000;
 
 void setup() {
     pinMode(LIGHT, OUTPUT);
@@ -11,9 +13,9 @@ void setup() {
 void loop() {
     digitalWrite(LIGHT, HIGH);
     digitalWrite(SOUND, HIGH);
-    delay(1000);
+    delay(PAUSE_MS);
 
     digitalWrite(LIGHT, LOW);
     digitalWrite(SOUND, LOW);
-    delay(1000);
+    delay(PAUSE_MS);
 }

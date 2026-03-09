@@ -7,6 +7,7 @@ const int LED_BLUE = 3;
 const int BUTTON = 7;
 
 const int BRIGHTNESS = 150;
+const int PAUSE_MS = 500;
 
 void setup() {
     pinMode(LED_RED, OUTPUT);
@@ -20,7 +21,7 @@ void setColor(int red, int green, int blue) {
     analogWrite(LED_RED, red);
     analogWrite(LED_GREEN, green);
     analogWrite(LED_BLUE, blue);
-    delay(500);
+    delay(PAUSE_MS);
 }
 
 void loop() {
