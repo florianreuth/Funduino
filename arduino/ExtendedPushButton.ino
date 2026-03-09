@@ -20,18 +20,18 @@ void setColor(int red, int green, int blue) {
     analogWrite(LED_RED, red);
     analogWrite(LED_GREEN, green);
     analogWrite(LED_BLUE, blue);
+    delay(500);
 }
 
 void loop() {
     if (digitalRead(BUTTON) == HIGH) {
         setColor(BRIGHTNESS, 0, 0);
-        delay(500);
-
         setColor(0, BRIGHTNESS, 0);
-        delay(500);
-
         setColor(0, 0, BRIGHTNESS);
-        delay(500);
+
+        setColor(0, BRIGHTNESS, BRIGHTNESS);
+        setColor(BRIGHTNESS, 0, BRIGHTNESS);
+        setColor(BRIGHTNESS, BRIGHTNESS, 0);
 
         setColor(0, 0, 0);
     }
