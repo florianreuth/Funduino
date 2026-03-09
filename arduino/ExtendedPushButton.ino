@@ -32,5 +32,7 @@ void loop() {
 
         setColor(0, 0, BRIGHTNESS);
         delay(500);
+
+        setColor(0, 0, 0);
     }
 }
