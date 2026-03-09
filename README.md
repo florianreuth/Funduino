@@ -15,7 +15,7 @@ tutorial and an extended version with more features.
 | Pulsating LED   | [✅](arduino/PulsatingLED.ino)  | [✅](arduino/ExtendedPulsatingLED.ino)                              |
 | Rainbow LED     | [✅](arduino/RainbowLED.ino)    | [✅](arduino/ExtendedRainbowLED.ino)                                |
 | Push Button     | [✅](arduino/PushButton.ino)    | [✅](arduino/ExtendedPushButton.ino)                                |
-| Motion          | ❌                              | ❌                                                                  |
+| Motion          | [✅](arduino/Motion.ino)        | ❌                                                                  |
 | Photoresistor   | ❌                              | ❌                                                                  |
 | Potentiometer   | ❌                              | ❌                                                                  |
 | Temperature     | ❌                              | ❌                                                                  |
