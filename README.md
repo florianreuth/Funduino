@@ -17,7 +17,7 @@ tutorial and an extended version with more features.
 | Rainbow LED     | [✅](arduino/RainbowLED.ino)    | [✅](arduino/ExtendedRainbowLED.ino)                                |
 | Push Button     | [✅](arduino/PushButton.ino)    | [✅](arduino/ExtendedPushButton.ino)                                |
 | Motion          | [✅](arduino/Motion.ino)        | [✅](arduino/ExtendedMotion.ino)                                    |
-| Photoresistor   | [✅](arduino/Photoresistor.ino) | ❌                                                                  |
+| Photoresistor   | [✅](arduino/Photoresistor.ino) | [✅](arduino/ExtendedPhotoresistor.ino)                             |
 | Potentiometer   | ❌                              | ❌                                                                  |
 | Temperature     | ❌                              | ❌                                                                  |
 | Distance        | ❌                              | ❌                                                                  |
