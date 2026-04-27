@@ -19,7 +19,7 @@ tutorial and an extended version with more features.
 | Push Button     | [✅](arduino/PushButton.ino)    | [✅](arduino/ExtendedPushButton.ino)                                |
 | Motion          | [✅](arduino/Motion.ino)        | [✅](arduino/ExtendedMotion.ino)                                    |
 | Photoresistor   | [✅](arduino/Photoresistor.ino) | [✅](arduino/ExtendedPhotoresistor.ino)                             |
-| Potentiometer   | [✅](arduino/Potentiometer.ino) | ❌                                                                  |
+| Potentiometer   | [✅](arduino/Potentiometer.ino) | [✅](arduino/ExtendedPotentiometer.ino)                             |
 | Temperature     | ❌                              | ❌                                                                  |
 | Distance        | ❌                              | ❌                                                                  |
 | Remote control  | ❌                              | ❌                                                                  |
