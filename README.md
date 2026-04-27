@@ -1,6 +1,7 @@
 # Funduino
 
-This repository contains programs I build (or used) on the Arduino UNO made by Funduino. The programs here were primarily made
+This repository contains programs I build (or used) on the Arduino UNO made by Funduino. The programs here were
+primarily made
 for the MEGA 2560 board, but should work on others as well.
 
 ## Table of Contents
@@ -18,16 +19,18 @@ tutorial and an extended version with more features.
 | Push Button     | [✅](arduino/PushButton.ino)    | [✅](arduino/ExtendedPushButton.ino)                                |
 | Motion          | [✅](arduino/Motion.ino)        | [✅](arduino/ExtendedMotion.ino)                                    |
 | Photoresistor   | [✅](arduino/Photoresistor.ino) | [✅](arduino/ExtendedPhotoresistor.ino)                             |
-| Potentiometer   | ❌                              | ❌                                                                  |
+| Potentiometer   | [✅](arduino/Potentiometer.ino) | ❌                                                                  |
 | Temperature     | ❌                              | ❌                                                                  |
 | Distance        | ❌                              | ❌                                                                  |
 | Remote control  | ❌                              | ❌                                                                  |
 | Servomotor      | ❌                              | ❌                                                                  |
 
 ## Useful resources
+
 - [Funduino's education tutorial](https://funduino.de/vorwort)
 - [Arduino UNO documentation](https://www.arduino.cc/en/Guide/ArduinoUno)
 - [Codebender](https://codebender.cc/) - Online Arduino IDE
 
 ## License
+
 This project is licensed under the CC0 license. Feel free to learn from the code and use it in your own projects. 
