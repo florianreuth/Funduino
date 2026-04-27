@@ -20,7 +20,7 @@ tutorial and an extended version with more features.
 | Motion          | [✅](arduino/Motion.ino)        | [✅](arduino/ExtendedMotion.ino)                                    |
 | Photoresistor   | [✅](arduino/Photoresistor.ino) | [✅](arduino/ExtendedPhotoresistor.ino)                             |
 | Potentiometer   | [✅](arduino/Potentiometer.ino) | [✅](arduino/ExtendedPotentiometer.ino)                             |
-| Temperature     | ❌                              | ❌                                                                  |
+| Temperature     | [✅](arduino/Temperature.ino)   | ❌                                                                  |
 | Distance        | ❌                              | ❌                                                                  |
 | Remote control  | ❌                              | ❌                                                                  |
 | Servomotor      | ❌                              | ❌                                                                  |
