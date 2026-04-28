@@ -21,7 +21,7 @@ tutorial and an extended version with more features.
 | Photoresistor   | [✅](arduino/Photoresistor.ino) | [✅](arduino/ExtendedPhotoresistor.ino)                             |
 | Potentiometer   | [✅](arduino/Potentiometer.ino) | [✅](arduino/ExtendedPotentiometer.ino)                             |
 | Temperature     | [✅](arduino/Temperature.ino)   | [✅](arduino/ExtendedTemperature.ino)                               |
-| Distance        | [✅](arduino/Distance.ino)      | ❌                                                                  |
+| Distance        | [✅](arduino/Distance.ino)      | [✅](arduino/ExtendedDistance.ino)                                  |
 | Remote control  | ❌                              | ❌                                                                  |
 | Servomotor      | ❌                              | ❌                                                                  |
 
