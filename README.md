@@ -22,7 +22,7 @@ tutorial and an extended version with more features.
 | Potentiometer   | [✅](arduino/Potentiometer.ino) | [✅](arduino/ExtendedPotentiometer.ino)                             |
 | Temperature     | [✅](arduino/Temperature.ino)   | [✅](arduino/ExtendedTemperature.ino)                               |
 | Distance        | [✅](arduino/Distance.ino)      | [✅](arduino/ExtendedDistance.ino)                                  |
-| Remote control  | [✅](arduino/RemoteControl.ino) | ❌                                                                  |
+| Remote control  | [✅](arduino/RemoteControl.ino) | [✅](arduino/ExtendedRemoteControl.ino)                             |
 | Servomotor      | ❌                              | ❌                                                                  |
 
 ## Useful resources
