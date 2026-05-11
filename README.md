@@ -23,7 +23,7 @@ tutorial and an extended version with more features.
 | Temperature     | [✅](arduino/Temperature.ino)   | [✅](arduino/ExtendedTemperature.ino)                               |
 | Distance        | [✅](arduino/Distance.ino)      | [✅](arduino/ExtendedDistance.ino)                                  |
 | Remote control  | [✅](arduino/RemoteControl.ino) | [✅](arduino/ExtendedRemoteControl.ino)                             |
-| Servomotor      | [✅](arduino/Servomotor.ino)    | ❌                                                                  |
+| Servomotor      | [✅](arduino/Servomotor.ino)    | [✅](arduino/ExtendedServomotor.ino)                                |
 
 ## Useful resources
 
