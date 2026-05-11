@@ -70,7 +70,7 @@ void setColor(int r, int g, int b) {
 
 void discoMode() {
     for (int i = 0; i < 20; i++) {
-        setColor(random(0, 256),  random(0, 256), random(0, 256));
+        setColor(random(0, 256), random(0, 256), random(0, 256));
         delay(120);
     }
 }
